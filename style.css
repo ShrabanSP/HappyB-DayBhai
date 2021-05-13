@@ -119,3 +119,12 @@ body {
   padding: 10px;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 720px) {
+  .back-side {
+    background: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+      url(./images/IMG_5116.JPG) center no-repeat;
+    background-size: cover;
+  }
+}
